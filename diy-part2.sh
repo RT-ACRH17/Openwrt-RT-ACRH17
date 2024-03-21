@@ -10,12 +10,12 @@
 # See /LICENSE for more information.
 #
 
-# Modify default IP
+# Modify default IP 修改默认网关
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 sed -i 's/192.168.1.1/192.168.5.202/g' package/base-files/files/bin/config_generate
 
-# Modify default theme
+# Modify default theme 修改默认主题
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
-# Modify hostname
-#sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+# Modify hostname 修改主机名
+#sed -i 's/OpenWrt/RT-ACRH17/g' package/base-files/files/bin/config_generate
